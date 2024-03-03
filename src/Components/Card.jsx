@@ -14,7 +14,6 @@ const Card = () => {
   } = useUserContext();
   let a = 0;
 
- 
   return (
     <>
       {products.map((product, i) => {
@@ -73,9 +72,7 @@ const Card = () => {
               <div className="row g-0 ">
                 <div className="col-md-5 d-flex justify-content-center align-items-center">
                   <img
-                    src={
-                      product.images[1] ? product.images[1] : product.images[0]
-                    }
+                    src={product.images}//[1] ? product.images[1] : product.images[0]
                     className="img-fluid product-img"
                     alt="..."
                     style={{ borderRadius: "30px" }}
@@ -174,8 +171,7 @@ const Card = () => {
                               Last updated 3 mins ago
                             </small>
                           </div>
-                          <div className="col">
-                          </div>
+                          <div className="col"></div>
                         </div>
                       </div>
                     </div>
