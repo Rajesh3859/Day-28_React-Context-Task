@@ -7,14 +7,17 @@ import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <><div className="fixed-top">
-      <Navbar/>
-      <Header />
+    <>
+      <div className="fixed-top">
+        <Navbar />
+      </div>
+      <div className="headercss d-flex ">
+        <Header />
       </div>
       <div className="d-flex flex-column justify-content-center align-items-center cardcss">
-      <Card  />
+        <Card />
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }

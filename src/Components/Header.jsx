@@ -6,11 +6,14 @@ function Header() {
 
   return (
     <>
-      <header>
-        <div className="row bg-light d-flex justify-content-between align-items-center py-3">
+      <header
+        // className="bg-light headercss "
+        style={{ width: "100%", height: "100%" }}
+      >
+        <div className="d-flex">
           <div className="col">TOTAL QTY: {cardQuantity}</div>
-          <div className="col">TOTAL Price : { (cardAmount).toFixed(2)}</div>
-          <div className="col-auto">
+          <div className="col">TOTAL Price : {cardAmount.toFixed(2)}</div>
+          <div className="col-auto pay">
             <button className="btn btn-primary">Proceed to pay</button>
           </div>
         </div>

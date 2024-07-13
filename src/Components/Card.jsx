@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
@@ -64,12 +65,12 @@ const Card = () => {
         );
 
         return (
-          <div className="col-12 d-flex justify-content-center align-items-center ">
+          <div className="col-12 d-flex align-items-center ">
             <div
               className="card mb-3"
-              style={{ width: "80%", borderRadius: "20px" }}
+              style={{ width: "100%", borderRadius: "20px" }}
             >
-              <div className="row g-0 ">
+              <div className="row g-0">
                 <div className="col-md-5 d-flex justify-content-center align-items-center">
                   <img
                     src={product.images}//[1] ? product.images[1] : product.images[0]
@@ -168,7 +169,7 @@ const Card = () => {
                         <div className="row">
                           <div className="col card-text d-flex align-items-center ">
                             <small className="text-muted d-flex align-items-center">
-                              Last updated 3 mins ago
+                              Last updated 4 mins ago
                             </small>
                           </div>
                           <div className="col"></div>

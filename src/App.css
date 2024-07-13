@@ -5,7 +5,7 @@
 
 }
 body{
-  background-color:lightcyan;
+  background-color:rgba(233, 173, 10, 0.507);
   
 }
 .rating-color {
@@ -27,8 +27,8 @@ body{
 }
 
 
-header ,nav,footer{
-  background: rgba( 255, 255, 255, 0.3 );
+nav,footer{
+  background: rgba(250, 166, 11, 0.671);
   backdrop-filter: blur( 4  px );
   -webkit-backdrop-filter: blur( 8px );
   -webkit-box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.75);
@@ -36,20 +36,42 @@ header ,nav,footer{
   box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.75);
 }
 
-header .row{
+/* header .row{
   padding: 5px 15%;
+} */
+
+.headercss{
+  position: absolute;
+  right: 0;
+  width: 500px;
+  height: 10%;
+  border: 1px;
+  box-shadow: 0px 0px 1px 1px rgba(22, 22, 22, 0.993);
+  border-radius: 15px;
+  margin-right: 50px;
+  background-color: lightgoldenrodyellow;
+  padding: 6px;
 }
 
 .cardcss{
   margin-top: 10%;
   margin-bottom: 2%;
+  max-width: 70%;
 }
 
   
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 500px) {
   .cardcss {
     margin-top: 15%;
   }
 }
 
+.pay{
+  position: absolute;
+  right:10px;
+  bottom: 10px;
 
+}
+.card{
+  background-color:lightgoldenrodyellow;
+}

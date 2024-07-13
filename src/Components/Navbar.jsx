@@ -5,7 +5,7 @@ import { useUserContext } from "../ContextProvider";
 const Navbar = () => {
   const { cardQuantity } = useUserContext();
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           Shopping Cart
